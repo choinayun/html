@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<!-- form : 다른 페이지로 전송 
+				(submit과 reset 사용하려면 form 으로 묶여있어야한다)
+		 action : 전송할 위치 
+		 name : 사용자가 입력한 값을 전송할 때 사용 
+		 method : 데이터를 전송하는 방식 
+		 (get : url에 보이는 방식 / post : 보이지 않는 방식, 용량 큰 정보들) -->
+	<form action="https://www.naver.com/" method="get">
+		<input type="text" name="n" placeholder="input name"><br>
+		<input type="text" name="a" placeholder="input addr"><br>
+		<input type="submit" value="서브밋">
+		<input type="reset" value="초기화">
+		<input type="button" value="버튼">
+	</form>
+	
+<hr>
+	책읽기<input type="checkbox">
+	멍때리기<input type="checkbox">
+	게임<input type="checkbox">
+
+<hr>
+	<!-- name : 동일하게 지정해야 그 중에 하나를 선택가능 (하나의 변수로 생각)
+		 checked : 실행되자마자 선택되는 -->
+	10대<input type="radio" name="age" checked>
+	20대<input type="radio" name="age">
+	30대<input type="radio" name="age">
+	
+<hr>
+	<!-- 입력받기 -->
+	<!-- value : 직접적으로 나타나는 문구 -->
+	<input type="button" value="버튼"><br>
+	<input type="submit" value="서브밋"><br>
+	<input type="reset" value="초기화"><br>
+	<input type="text" value="내용"><br>
+	<input type="password" value="비밀번호"><br>
+	<input type="radio"><br>
+	<input type="checkbox"><br>
+	<input type="date"><br>
+	
+</body>
+</html>
