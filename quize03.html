@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table>
+	
+		<tr>
+			<th align="left">
+				다음 <span style="background-color:brown;">내용에 맞게 입력</span> 하시오.
+			</th>
+			
+			<th rowspan="3">
+				<img src="img2.jpg" width="150px" height="150px">
+			</th>
+		</tr>
+		
+		<tr>
+			<th align="left">
+				<form action="#"> 전공 분야를 입력하세요.
+					<select size="1" name="major">
+						<option value="1">소프트웨어
+						<option value="2">수학
+						<option value="3">영어
+					</select>
+				</form>
+			</th>
+		</tr>
+		
+		<tr>
+			<th align="left">
+				<form action="#"> 
+					이름<input type="text" name="name"><p>
+					아이디<input type="text" name="id"></p>
+					비밀번호<input type="password" name="pw">
+				</form>
+			</th>
+		</tr>
+		
+		<tr>
+			<th align="left" colspan="2">
+				<fieldset style="width : 500px;">
+					<legend>성별조사</legend>
+						여성<input type="radio" name="gender" checked>
+						남성<input type="radio" name="gender">
+				</fieldset>
+				
+				<fieldset style="width : 500px;">
+					<legend>취미조사</legend>
+						책읽기<input type="checkbox" name="hobby">
+						공부하기<input type="checkbox" name="hobby">
+						책 읽으며 공부하기<input type="checkbox" name="hobby">
+						컴퓨터<input type="checkbox" name="hobby">
+				</fieldset>
+				
+				<fieldset style="width : 500px;"> 
+					<legend>하고 싶은 말</legend>
+					<textarea rows="3" cols="50"></textarea>
+				</fieldset><br>
+				
+				<form action="quize02.html">
+					<input type="submit" value="완료"> 
+				</form> <input type="submit" value="다시작성">
+			</th>
+		</tr>
+
+	</table>
+
+</body>
+</html>

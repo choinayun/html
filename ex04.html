@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+	<!-- 영역을 나눌 때 사용 
+		 div : 블럭단위(한 줄 전체) / span, label : 인라인 (글자 있는 부분만) -->
+	<div style="background-color: gray;">그레이</div>
+	<div style="background-color: aqua;">아쿠아
+			<span style="background-color: orange;">오렌지</span>
+			<span style="background-color: silver;">실버</span>
+			<label style="background-color: teal;">오렌지</label>
+	</div>
+	<div style="background-color: olive;">올리브</div>
+	
+	<span style="background-color: orange;">오렌지</span>
+	<span style="background-color: silver;">오렌지</span>
+	<label style="background-color: teal;">오렌지</label>
+
+<hr>
+	<!-- 틀 만들 때 사용 -->
+	<fieldset style="width:500px;">
+		<legend>취미 조사</legend>
+			책<input type="checkbox">
+			멍<input type="checkbox">
+			일<input type="checkbox">
+	</fieldset>
+	
+<hr>
+	<!-- 텍스트 작성하는 공간 -->
+	<textarea rows="3" cols="50"></textarea>
+	
+<hr>
+	<!-- value 로 값의 이름 지정가능 -->
+	<form action="#">
+		<input type="text" name="n" value="hello"><br>
+		10대<input type="radio" name="age" value="10"><br>
+		20대<input type="radio" name="age" value="20"><br>
+		30대<input type="radio" name="age" value="30"><br>
+		<select size="1" name="se">
+			<option value="1">사과
+			<option value="2">배
+			<option value="3">수박
+		</select>
+		<input type="submit" value="전송">
+	</form>
+	
+</body>
+</html>

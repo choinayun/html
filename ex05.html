@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+
+	#d01 { order: 2; background-color: aqua; width: 100px;}
+	#d02 { order: 1; background-color: pink; width: 200px;}
+	#div { display: flex; background-color: olive; }
+	
+</style>
+
+</head>
+<body>
+	
+	<!-- 태그 안에 태그를 넣으면 종속문장이 된다 
+		 id가 이름 / style에서 id 호출 할 때는 #을 사용한다 
+		 display (flex) : 한 줄로 만들어주는
+		 order : 표현하고자 하는 순서 변경시 사용			 -->
+	<div id="div">
+		<div id="d01">01</div>	<div id="d02">02</div>
+	</div>
+	
+	<!-- 책갈피 기능 
+		 top : 젤 윗부분으로 올라가는 속성 -->
+		 
+	<a href="#name">이름</a>
+	<a href="#phone">전화번호</a>
+	<a href="#addr">주소</a>
+	
+	<h1>1</h1><h1>1</h1><h1>1</h1>
+	<a id="name">이름 영역 입니다</a>
+	<a href="#top">[top]</a>
+	
+	<h1>1</h1><h1>1</h1><h1>1</h1>
+	<a id="phone">전화번호 영역 입니다</a>
+	<a href="#top">[top]</a>
+	
+	<h1>1</h1><h1>1</h1><h1>1</h1>
+	<a id="addr">주소 영역 입니다</a>
+	<a href="#top">[top]</a>
+	
+<hr>
+	<header style="background-color: gray;">
+		<h1>제목글</h1>
+	</header>
+	<nav style="background-color: olive;">
+		<ul>
+			<li>카페</li><li>뉴스</li><li>블로그</li>
+		</ul>
+	</nav>
+	<section>
+		<h3>내용이 들어오는 공간</h3>
+		
+		<!-- 동영상 올릴 때 사용하는 태그 
+			 controls : 컨트롤 할 수 있는 기능 추가
+			 loop : 영상 끝나면 다시재생 (브라우저마다 다름)	-->
+		<video controls loop src="resources/media/video.m4v">
+		
+		</video>
+	</section>
+	
+<hr>	
+	header : 문서의 위쪽 부분<br>
+	footer : 문서의 바닥<br>
+	nav : 문서 내의  navigation 요소<br>  
+	section : 문서의 영역 구분<br> 
+	article : 뉴스나 블러그 내용글 등<br> 
+	aside : 주요 컨텐츠 이외의 참고가 될 내용<br> 
+	figure : 그림, 비디오 등<br>
+	figcaption : 그림, 비디오 등의 부연설명<br> 
+	
+</body>
+</html>
