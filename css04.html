@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+
+	.div {
+		background-color: yellow;
+		width: 30%; height: 100px; 
+		border: 15px solid navy; 
+		padding:  50px 0 0 50px; 
+		margin : 50px 0 0 50px; }
+		/* px은 고정 값 , %는 브라우저의 창 크기에 맞춰변한다 */
+		
+	.div2 {
+		background-color: yellow;
+		width: 300px; height: 100px; 
+		border: 15px solid rgba(0, 0, 0, 0.1); 
+		box-shadow: 0 0 10px 30px rgba(0, 0, 0, 0.1) }	
+		/* 색상 사용할 때 rgb 색상표 숫자 써도 상관없음 (r, g, b, 농도)
+		   box-shadow : 그림자(오왼(-이면 왼쪽), 위아래, 뿌옇기, 그림자확장, 농도)*/
+		   
+	.title {
+		text-shadow: 10px 10px 5px black; }
+				/* 오왼, 위아래, 번짐, 색상 */
+   
+	.img { width: 100px; height: 100px; 
+		   box-shadow: 5px 5px 10px black; }
+		   
+	* { margin: 0; }
+	/* 태그 사용시 해당 태그마다 margin이 존재한다
+		 원하는 형태로 안 나올 수 있어서 margin을 0으로 설정해준다  */
+	
+</style>
+
+</head>
+<body>
+
+	<h1 style="background-color: red;">aaa</h1>
+<hr>
+	<img class="img" src="img6.png">
+<hr>	
+	<h1 class="title">제목이 들어갑니다</h1>
+<hr>
+	<div class="div2">
+		박스모델
+	</div>
+<hr>
+	<div class="div">
+		박스모델
+	</div>
+	
+	
+</body>
+</html>
