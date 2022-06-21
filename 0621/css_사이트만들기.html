@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+	
+	* { margin: 0; }
+	.warp { width: 1000px; margin: auto; }
+	.header { position: fixed; width: 1000px; top: 0; 
+			  z-index: 1111;}
+	.title { text-align: center; }
+	.content { margin-top : 200px; }
+	
+	nav { background-color: gray; }
+	nav ul { display: flex; list-style: none; }
+	nav ul li { padding: 5px; margin: 5px 15px; }
+	nav ul li a { text-decoration: none; color: white; }
+	
+	button { padding: 20px 7px; }
+	input { padding: 10px 20px; }
+	
+</style>
+
+</head>
+<body>
+
+	<div class="wrap">
+		<div class="header">
+			<h1 class="title"><i>맛집탐방 이야기^^</i></h1>
+			<img class="titleimg" src="img6.png" width="100px" height="100px">
+			<nav>
+				<ul>
+					<li> <a href="#">HOME</a></li>
+					<li> <a href="#">게시판</a></li>
+					<li> <a href="#">내정보</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="content">
+			<section class="a">
+				<aside>
+					<img src="img.jpg" width="120px" height="120px"><br>
+					<img src="img3.png" width="120px" height="120px">
+					<b>맛집 장터</b> 맛집 이야기 시작 합니다. 
+				</aside>
+				<aside></aside>
+			</section>
+			<section class="b">
+				<input type="id">
+				<input type="pw">
+				<button type="button">로그인</button><br>
+				<a href="#">회원가입</a> &frasl; <a href="#">ID/PW찾기</a>
+			</section>
+		</div>
+		<hr>
+		<div class="footer">
+			<i><font color="green"><b>CARE LAB</b></font> Copyright &copy; AllRights Reserved</i> 
+			&nbsp;&nbsp;&nbsp; &reg; 1999 &Iota; 회사소개 &Iota; TEL : 777-777
+		</div>
+	</div>
+</body>
+</html>
